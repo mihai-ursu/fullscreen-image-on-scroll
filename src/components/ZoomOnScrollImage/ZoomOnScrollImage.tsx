@@ -11,7 +11,12 @@ const ZoomOnScrollImage = () => {
   return (
     <div className={styles.wrapper} ref={ref}>
       <motion.div style={{ scale: scale }} className={styles.mediaWrapper}>
-        <Image src="/images/mountains.jpg" alt="Mountains" fill />
+        <Image
+          src="/images/mountains.jpg"
+          alt="Mountains"
+          fill
+          className={styles.image}
+        />
       </motion.div>
     </div>
   );
