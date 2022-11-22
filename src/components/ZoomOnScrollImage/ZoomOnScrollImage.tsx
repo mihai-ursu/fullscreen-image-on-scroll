@@ -6,7 +6,6 @@ import styles from "./ZoomOnScrollImage.module.scss";
 
 const ZoomOnScrollImage = () => {
   const ref = useRef<HTMLDivElement>(null);
-
   const scale = useZoomOnScroll(ref);
 
   return (
